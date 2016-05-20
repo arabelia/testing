@@ -1,0 +1,17 @@
+$c-texto:#fff;
+
+body{text-align:center; margin:auto;}
+.contenedor{width:100%;}
+.esppacio{padding: 1em 0;}
+.capa-oscura{background:rgba(0,0,0,0.4);height: 100%;}
+
+header{
+	color:$c-texto;
+	height:400px;
+	background-image:url("../image/large.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	a{color:$c-texto;}
+	.boton a{padding: 0 2em 1em;border:1px solid #fff;border-radius:5px;}
+	h1{padding:2em 5em;}
+}

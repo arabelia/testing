@@ -5,32 +5,39 @@ html
 		meta(http-equiv="X-UA-Compatible" content="IE=edge")
 		meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
 		title testing
-		link(rel="stylesheet" href="css/bootstrap.main.css")
-		link(rel="stylesheet" href="css/icomoon.css")
-		link(rel="stylesheet" href="css/main.css")
-		script(src="js/bootstrap.min.js")
-		script(src="js/jquery-1.2.3.min.js")
+		link(rel="stylesheet", href="css/font-awesome.min.css")
+		link(rel="stylesheet", href="css/icomoon.css")
+		link(rel="stylesheet", href="css/bootstrap.min.css")
+		script(type="text/javascript", src="js/jquery.easing.min.js")
+		script(type="text/javascript", src="js/jquery.js")
+		script(type="text/javascript", src="js/bootstrap.min.js")
+		link(rel="stylesheet", href="css/main.css")
 	body
 		.contenedor
-			.menu
-				.col-md-2.portada
-					img(class="pull-left" src="image/logo-2.jpg")
-				.col-md-8
-					ul(class="pull-right list-inline list-unstyled")
-						li
-							a(href="#") ¿Que me ofrece?
-						li
-							a(href="#") ¿Como funciona?
-						li
-							a(href="#") ¿Porque usarlo?
-						li
-							a(href="#") Contactos
-					.capa-oscura
-						h1 Obten videos de personas reales utilizando tu sitio web, en 1 hora
+			header
+				.capa-oscura
+					.row.espacio
+						.col-md-3.portada
+							img(class="pull-left img-responsive" src="image/user-r.png")
+						.col-md-9.menu.espacio
+							ul(class="pull-right list-inline list-unstyled")
+								li
+									a(href="#") ¿Que me ofrece?
+								li
+									a(href="#") ¿Como funciona?
+								li
+									a(href="#") ¿Porque usarlo?
+								li
+									a(href="#") Contactos
+					.row
+						h1 Obten videos de personas reales utilizando tu sitio web, en 1 hora.
+					.row
 						.capa-celeste
 							.col-sm-6
-								h2 PRUEBA GRATUITA
-								p Obten tu video gratis de 5 minutos.
+								h2.pull-right PRUEBA GRATUITA
+								p.pull-right Obten tu video gratis de 5 minutos.
 							.col-sm-6
-								a(href="#")
+								a(class="pull-left boton" href="#")
 									h3 Prueba gratis
+			//- final de head
+									
