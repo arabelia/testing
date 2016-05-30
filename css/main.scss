@@ -1,10 +1,19 @@
 $c-texto:#fff;
 
 body{text-align:center; margin:auto;}
+h3,h5{color:#4A6BE6;}
 .contenedor{width:100%;}
 .esppacio{padding: 1em 0;}
 .capa-oscura{background:rgba(0,0,0,0.4);height: 100%;}
-
+.capa-celeste{background: rgba(40, 87, 235, 0.6); height: 110px;}
+.boton{margin: .5em; padding:0 .8em .2em; border-radius:10px; border: 1px solid #fff;}
+a:hover{text-decoration:none; color:#fff;}
+.mgt-2{margin-top:2em;}
+.pdtn{padding-top:-10px;}
+.tmn-bt{font-size:14px;}
+.derecha{text-align:right;}
+.pd1{padding:1em 0;}
+.circle{width:60px; height:60px; margin:auto; border-radius:30px; border: 1px solid #4A6BE6;}
 header{
 	color:$c-texto;
 	height:400px;
