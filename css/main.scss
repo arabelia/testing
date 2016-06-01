@@ -1,8 +1,8 @@
 $c-texto:#fff;
 
 body{text-align:center; margin:auto;}
-h3,h5{color:#4A6BE6;}
-.espacio{padding: 1em 0;}
+h3,h4{color:#4A6BE6;}
+.espacio{padding: 1.5em 0;}
 .capa-oscura{background:rgba(0,0,0,0.4); height:auto; }
 .capa-celeste{background: rgba(40, 87, 235, 0.6); height: 100px; bottom:-10px; padding: 1em 0;}
 .boton{margin: .5em; padding:0 .8em .2em; border-radius:10px; border: 1px solid #fff;}
@@ -10,7 +10,9 @@ a:hover{text-decoration:none; color:#fff; padding:.1em .4em;}
 .mgt-2{margin-top:2em;}
 .pdtn{padding-top:-10px;}
 .tmn-bt{font-size:14px;}
+.pd2{padding: 2em 0 1em;}
 .derecha{text-align:right;}
+
 
 header{
 	color:$c-texto;
@@ -26,3 +28,7 @@ header{
 
 .circle{width:60px; height:60px; margin:auto; border-radius:30px; border: 1px solid #4A6BE6;}
 .circle i{margin: auto; font-size:25px;}
+
+.img-ejemplo{width: 200px;}
+.ejemplo p{text-align:left;}
+.img-flecha{width: 60px; margin:auto;}

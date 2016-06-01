@@ -3,12 +3,12 @@ body {
   margin: auto;
 }
 
-h3, h5 {
+h3, h4 {
   color: #4A6BE6;
 }
 
 .espacio {
-  padding: 1em 0;
+  padding: 1.5em 0;
 }
 
 .capa-oscura {
@@ -46,6 +46,10 @@ a:hover {
 
 .tmn-bt {
   font-size: 14px;
+}
+
+.pd2 {
+  padding: 2em 0 1em;
 }
 
 .derecha {
@@ -89,4 +93,17 @@ header h1 {
 .circle i {
   margin: auto;
   font-size: 25px;
+}
+
+.img-ejemplo {
+  width: 200px;
+}
+
+.ejemplo p {
+  text-align: left;
+}
+
+.img-flecha {
+  width: 60px;
+  margin: auto;
 }
